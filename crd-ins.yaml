@@ -1,0 +1,8 @@
+apiVersion: "test.example.com/v1alpha1"
+kind: "TestDeployment"
+metadata:
+  name: "testd1"
+  namespace: "default"
+spec:
+  image: "ubuntu:latest"
+  #replicas: 1
